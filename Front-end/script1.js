@@ -75,7 +75,7 @@
       body: JSON.stringify(data)
     })
     const result = await res.json();
-    alert(`(Server: ${result.message} (Nama: ${result.data.name}, Usia: ${result.data.massage})`);
+    alert(`(Server: ${result.message} (Nama: ${result.data.name}, Massage: ${result.data.massage})`);
     form.reset();
   } catch (err) {
     console.error('error:', err);
